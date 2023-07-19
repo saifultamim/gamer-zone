@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,400;0,600;0,700;1,100;1,200;1,300;1,500;1,600&display=swap');
+/*navigation-bar start*/
+.navigation-bar{
+    
+    display:flex;
+    width:100%;
+    justify-content: space-around;
+    background-color: #FFF;
+}
+.nav-logo{
+   
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+.nav-logo > img{
+    width: 86.041px;
+    height: 40px;
+}
+.nav-item{
+   
+    display:flex;
+     padding:0 30px;
+     gap:25px;
+    justify-content: space-around;
+
+}
+.nav-item-icon{
+   
+    display:flex;
+    align-items: center;
+    gap:15px;
+    background-color:rgba(11, 2, 35, 0.10);
+    width: 262px;
+    height: 56px;
+    justify-content: center;
+    border-radius: 8px;
+}
+.youtube-icon{
+    color:red;
+}
+.tiktok-icon{
+    color:rgb(238, 29, 82);
+}
+/*navigation-bar end*/
+/*nav-main start*/
+.nav-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgba(68, 64, 77, 0.03);
+}
+.nav-main-content>h4{
+    color: #0B0223;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.nav-main-content>h1{
+    font-family: Work Sans;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position:relative;
+    margin-top:-50px;
+}
+.nav-main-content-paragraph{
+    position:relative;
+    margin-top:-50px;
+    margin-bottom:15px;
+}
+.nav-main-content>p{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+}
+.nav-main-btn{
+    display:flex;
+    position:absolute;
+    margin-left:-15px;
+    gap:15px; 
+}
+.nav-main-btn .signin-btn{
+    padding: 15px 30px;
+    background-color: #FF42A5 ;
+    border-radius:30px;
+    color:white; 
+    border:0;
+}
+.nav-main-btn .gorogue-btn{ 
+    padding: 15px 30px;
+    background-color: #4EC5F7 ;
+    border-radius:30px;
+    color:white;
+    border:0;
+}
+.nav-main-image>img{
+    max-height:600px; 
+}
+/*nav-main end*/
+/*online-game start*/
+.online-game-hp{
+    margin:5px;
+}
+.online-game-hp>h2{
+    text-align: center;
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.online-game-hp .online-game-heading{
+    
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.online-game-hp>p{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-top:-25px;
+
+}
+.online-main-game-card{
+   
+    background: #FFF;
+    display:flex;
+    gap:20px;
+    justify-content: center;
+}
+
+.online-main-game-card img{
+    width: 250px;
+height: 300px;
+
+
+}
+.online-main-game-card p{
+color: rgba(83, 76, 100, 1);
+font-family: Work Sans;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 25px;
+
+}
+/*online-game end*/
+/*main-container start*/
+.main-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.container-content{
+    text-align: center;
+    
+}
+.container-content>h2{
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    color: #0B0223; 
+}
+.container-content>p{
+    color: #534C64;
+
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.container-sub-content{
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    color: #F948B2; 
+}
+.container-image{
+ 
+}
+.container-image .container-sub2-image{
+    width: 318.5px;
+height: 365.083px;
+    position:absolute;
+    left:679px;
+    top:1540px;
+}
+.container-image .container-sub1-image{
+    width: 500px;
+    height: 600px;
+}
+/*main-container end*/
+/*main-icon start*/
+.total-icon{
+    max-width:1350px;
+    margin:0 auto;
+    margin-top:200px;
+   display:flex;
+  
+    
+}
+
+.main-icon{
+    background-color: #FFF;
+    display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  justify-content: center;
+ 
+  
+}
+.sub-icon{
+    display:flex;
+    gap:5px;
+    padding:2px 29px;
+    
+}
+.main-icon .sub-icon1:hover{
+  
+    background-color: bisque;
+    color:tomato;
+    border-radius: 30px;;
+}
+/*main-icon end*/
+/*footer-section start*/
+.footer-section{
+    display:flex;
+    justify-content: center;
+    margin-top:150px;
+background-color: #0B0223;;
+    
+}
+.footer-sub-section{
+    width: 1114px;
+    height: 550px;
+   
+    
+   
+}
+
+.footer-logo{
+   
+    display:flex;
+    align-items: center;
+    gap:10px;
+    justify-content: center;
+   
+}
+.footer-logo > img{
+    width: 86.041px;
+    height: 40px;
+}
+.footer-logo h1{
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color:white;
+}
+.footer-list {
+    display: flex;
+    list-style: none;
+   justify-content: center;
+   width:900px;
+  
+   margin:0 auto;
+   justify-content: space-around;
+   padding:30px 0px;
+   color:white;
+  
+}
+
+.footer-icon{
+
+display: flex;
+color:white;
+width:500px;
+
+margin:0 auto;
+
+
+}
+
+.footer-icon i{
+    font-size:40px;
+    margin-left:5px;
+     margin-right: 30px;
+     
+    
+}
+.footer-rules{
+    display:flex;
+    width:900px;
+
+margin:0 auto;
+justify-content: space-around;
+padding:20px 0px;
+color: rgba(255, 255, 255, 0.60);
+
+}
+.last-footer{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.60);
+   
+}
+.footer-logo h1{
+    color:red;
+}
+.gamer{
+    color:#FF42A5 ;
+}
